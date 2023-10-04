@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quattrocento+Sans:ital@0;1&display=swap');
+/* Estilos generales */
+body {
+    background-color: #ffffff;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+div{
+    text-align: justify;
+}
+/* Página principal */
+.hero {
+    text-align: center;
+    color: #000;
+    margin: 10px;
+    border: solid #ff0000;
+}
+#website_logo{
+    position: center;
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+}
+
+/* Contenido */
+.content {
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
