@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeFit - Información del Usuario</title>
+    <style>
+        /* Estilos generales */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Quattrocento+Sans:ital@0;1&display=swap');
+        body {
+            font-family: Lato;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            background-color: #333;
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        /* Estilos para la sección de información del usuario */
+        h2{
+            text-align: center;
+        }
+        #informacion-usuario {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        #informacion-usuario img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+        #user-name,#user-age,#user-email,#user-weight,#user-height,#user-photo{
+            text-align: center;
+            
+        }
+
+        /* Estilos para la sección de recomendaciones */
+        #recomendaciones {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Estilos para el botón de volver */
+        .boton-volver {
+            margin: 10px;
+            border: solid #000;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton-volver:hover {
+            background-color: #ff0000;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Encabezado de pagina -->
+    <header>
+        <h1>Bienvenido a LifeFit</h1>
+        <p>Tu compañero en un estilo de vida saludable</p>
+    </header>
+    <a href="../index.html" class="boton-volver">Volver a la Página Principal</a>
+    <!-- Información del Usuario -->
+    <main>
+        <section id="informacion-usuario">
+            <h2>Tu Perfil</h2>
+            <center><img id="user-photo" src="../Multimedia/foto usuario.png" alt="Imagen de perfil"></center>
+            <p id="user-name"><strong>Nombre:</strong> John Doe</p>
+            <p id="user-age"><strong>Edad:</strong> 30 años</p>
+            <p id="user-email"><strong>Correo Electrónico:</strong> john.doe@example.com</p>
+            <p id="user-weight"><strong>Peso:</strong> 75 kg</p>
+            <p id="user-height"><strong>Altura:</strong> 175 cm</p>
+        </section>
+        <!-- Seccion de recomwndaciones al usuario -->
+        <section id="recomendaciones">
+            <h2>Recomendaciones</h2>
+            <p>¡Mantente activo y come saludablemente para lograr un estilo de vida más saludable!</p>
+        </section>
+    </main>
+    <!-- Pie de pagina -->
+    <footer>
+        <p>&copy; 2023 LifeFit - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

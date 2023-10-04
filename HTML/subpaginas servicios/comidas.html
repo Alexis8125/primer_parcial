@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificación de Comidas - LifeFit</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Quattrocento+Sans:ital@0;1&display=swap');
+        body {
+        font-family: Lato;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        color: #000000;
+        }
+
+        .header {
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 0 10px 1px gray;
+        }
+
+        .meal-planner {
+            background-color: white;
+            color: #000000;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label,
+        input {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #ff0000;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #990000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Planificación de Comidas - LifeFit</h1>
+    </header>
+
+    <div class="container">
+        <div class="meal-planner">
+            <h2>Planifica tus comidas</h2>
+            <form>
+                <label for="breakfast">Desayuno:</label>
+                <input type="text" id="breakfast" name="breakfast">
+
+                <label for="lunch">Almuerzo:</label>
+                <input type="text" id="lunch" name="lunch">
+
+                <label for="dinner">Cena:</label>
+                <input type="text" id="dinner" name="dinner">
+
+                <button type="submit">Guardar Plan</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
